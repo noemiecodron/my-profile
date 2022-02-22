@@ -1,0 +1,109 @@
+/*Colors and fonts*/
+
+body{
+	background-color: #F5F2E7;
+	color: #2C3333;
+	font-family: 'Lato', sans-serif;
+	font-size: 17px;
+	width: 500px;
+	margin: 0px auto;
+}
+
+h1, h2{
+	font-family: 'Roboto Slab', serif;
+	width: 500px;
+	margin: 0px auto;
+}
+
+h1{
+	color: #2666CF;
+	font-size: 40px;
+	letter-spacing: 2px;
+}
+
+h2{
+	font-size: 30px;
+	color: #395B64;
+	letter-spacing: 1px;
+	font-weight: bolder;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover {
+	color: #2666CF;
+}
+
+img{
+	border-radius: 30px;
+}
+
+
+/*Custom design with class*/
+
+.container {
+	width: 600px;
+	margin: 30px auto;
+}
+
+.card-white {
+	background-color: ghostwhite;
+	padding: 30px;
+	box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	margin: 25px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: #2666CF;
+	color: ghostwhite;
+	padding: 8px 20px;
+	border-radius: 5px
+}
+
+.btn-blue:hover {
+	color: darkblue;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 15px;
+}
+
+.list-inline i {
+	font-size: 35px;
+	color: darkblue;
+}
+
+.list-inline i:hover {
+	color: #2666CF;
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 350px;
+	}
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 550px;
+	}
+}
+
+/*Design adjustments with id*/
+#introduction p {
+	margin-bottom: 45px;
+}
